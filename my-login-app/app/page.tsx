@@ -102,14 +102,14 @@ function LoginContent() {
 
           <button
             onClick={handleNaverLogin}
-            className="w-full flex items-center justify-center gap-3 bg-[#03C75A] text-[#000000] px-6 py-4 rounded-xl text-base font-semibold hover:bg-[#FDD835] transition-all duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
+            className="w-full flex items-center justify-center gap-3 bg-[#03C75A] text-[#000000] px-6 py-4 rounded-xl text-base font-semibold hover:bg-[#02B03F] transition-all duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
           >
             네이버 로그인
           </button>
 
           <button
             onClick={handleGoogleLogin}
-            className="w-full flex items-center justify-center gap-3 bg-[#4285F4] text-[#FFFFFF] px-6 py-4 rounded-xl text-base font-semibold hover:bg-[#FDD835] transition-all duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
+            className="w-full flex items-center justify-center gap-3 bg-[#4285F4] text-[#FFFFFF] px-6 py-4 rounded-xl text-base font-semibold hover:bg-[#3367D6] transition-all duration-200 shadow-md hover:shadow-lg active:scale-[0.98]"
           >
             구글 로그인
           </button>
